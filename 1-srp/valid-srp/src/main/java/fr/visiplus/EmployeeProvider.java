@@ -17,7 +17,7 @@ public class EmployeeProvider {
 	}
 	
 	public int provideHoursPerWeek() {
-		return data.getDayPerWeek() * data.getHoursPerDay();
+		return data.getDayPerWeek() * data.getHoursPerDay(); // ajout d'un commentaire
 	}
 	
 }
