@@ -12,7 +12,7 @@ public class Employee {
 	private int hoursPerDay = 7;
 	
 	private int calculateHoursPerWeek() {
-		return daysPerWeek * hoursPerDay;
+		return daysPerWeek * hoursPerDay; // ajout d'un commentaire factice
 		// change to :
 		//return daysPerWeek * workedHoursPerDay;
 	}
