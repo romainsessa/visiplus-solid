@@ -17,7 +17,7 @@ public class HRProvider {
 	}
 	
 	public int provideWorkedHoursPerWeek() {
-		return data.getWorkedHoursPerDay() * data.getDayPerWeek();
+		return data.getWorkedHoursPerDay() * data.getDayPerWeek(); // ajout d'un commentaire factice
 	}
 
 }
