@@ -6,13 +6,13 @@ import org.slf4j.LoggerFactory;
 public class Employee {
 
 	public static Logger logger = LoggerFactory.getLogger(Employee.class);
-	
+
 	private int daysPerWeek = 5;
 	//private int workedHoursPerDay = 8; add it after
 	private int hoursPerDay = 7;
 	
 	private int calculateHoursPerWeek() {
-		return daysPerWeek * hoursPerDay;
+		return daysPerWeek * hoursPerDay; // ajout d'un commentaire factice
 		// change to :
 		//return daysPerWeek * workedHoursPerDay;
 	}
